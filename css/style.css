@@ -1,0 +1,172 @@
+
+
+header {
+    background-color: #002171;
+    display: flex;
+    float: center;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0px 5vw 0px 15px; /*Arriba Derecha Abajo Izquierda */
+}
+
+nav {
+    display: inline-block;
+      /* Quitar posiblemente*/
+    width:60%;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-left: 5%;
+        
+    }
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            
+           
+        }
+            nav ul li a {
+                
+                padding: 0 10px;
+                text-decoration: none;
+                color: #b4e2fc;
+                
+            }
+                nav ul li a:hover {
+                    background: #b4e2fc; 
+                    color: #002171;
+                }
+
+
+h1 {
+    font-size: 2.3em;
+    line-height:1.3em;
+    margin:15px 0;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+
+}    
+
+p {
+    margin: 0 0 1.5em 0;
+    font-size: 1.2em;
+}
+
+#tool {
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    display: inline-flex; /*Qué es?*/
+    float: right;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+#box {
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    display: inline-flex; /*Qué es?*/
+    float: right;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.bloque1 > ul {
+    border: 2px;
+    background-color: #b4e2fc;
+    box-sizing: content-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: content;
+    border-radius: 5px;
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+.bloque2 > ul {
+    border: 2px;
+    background-color: #b4e2fc;
+    box-sizing: content-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: content;
+    border-radius: 5px;
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+.curriculum > ul {
+    border: 2px;
+    background-color: #b4e2fc;
+    box-sizing: content-box;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+.aptitudes > ul {
+    border: 2px;
+    background-color: #b4e2fc;
+    box-sizing: content-box;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.formulario {
+    font-size: 1.2em;
+    display:flex;
+    padding-left: 10%;
+}
+
+
+.espacio {
+    background-color: #b4e2fc;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+
+footer{
+    background-color:#002171;
+    color: white;
+    box-sizing: content-box;
+    height: 50px;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+footer > a {
+    color: white;
+}
